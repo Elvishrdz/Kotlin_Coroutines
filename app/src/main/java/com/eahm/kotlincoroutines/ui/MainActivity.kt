@@ -1,13 +1,13 @@
-package com.eahm.kotlincoroutines
+package com.eahm.kotlincoroutines.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.eahm.kotlincoroutines.R
 import com.eahm.kotlincoroutines.adapters.MenuAdapter
 import com.eahm.kotlincoroutines.models.MenuElement
-import com.eahm.kotlincoroutines.ui.ThreadsWithSuspendFun
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
