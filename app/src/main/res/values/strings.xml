@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">KotlinCoroutines</string>
+    <string name="app_name">Kotlin Coroutines</string>
+    <string name="threads_with_suspend_fun">Threads with suspend fun</string>
 </resources>
