@@ -17,6 +17,11 @@ class MainActivity : AppCompatActivity() {
             "Threads with suspend fun",
             "Check how powerful coroutines are when we create many number of task",
             ThreadsWithSuspendFun::class.java
+        ),
+        MenuElement(
+            "Launching Coroutines",
+            "A basic example of how to executes coroutines",
+            LaunchingCoroutines::class.java
         )
     )
 
