@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.LaunchingCoroutines"></activity>
+        <activity android:name=".ui.FetchAndCount"/>
+        <activity android:name=".ui.LaunchingCoroutines" />
         <activity android:name=".ui.ThreadsWithSuspendFun" />
         <activity android:name=".ui.MainActivity">
             <intent-filter>

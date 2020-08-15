@@ -22,6 +22,11 @@ class MainActivity : AppCompatActivity() {
             "Launching Coroutines",
             "A basic example of how to executes coroutines",
             LaunchingCoroutines::class.java
+        ),
+        MenuElement(
+            "Fetch and Count",
+            "Update the UI using coroutines in the main thread",
+            FetchAndCount::class.java
         )
     )
 
