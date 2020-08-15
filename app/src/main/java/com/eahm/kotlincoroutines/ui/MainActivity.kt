@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
 
         rvMainMenu.apply {
             layoutManager = LinearLayoutManager(context, RecyclerView.VERTICAL, false)
-            adapter = MenuAdapter(menuElements)
+            adapter = MenuAdapter(menuElements.reversed())
             addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL) )
         }
 
