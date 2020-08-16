@@ -3,4 +3,13 @@
     <string name="threads_with_suspend_fun">Threads with suspend fun</string>
     <string name="fetch_and_count_default_message">You will receive a new message here</string>
     <string name="fetch_and_count_title">Touch the screen to increment the counter and fetch a new message\n\nCounter delay: 1 seconds\nMessage delay: 2 seconds</string>
+    <string name="launching_coroutines_in_different_dispatchers">Launching coroutines in different dispatchers</string>
+    <string name="launching_coroutines_default_information">On Android, coroutines are a great solution to two problems:\n A) Long running tasks are tasks that take too long to block the main thread.\n Fetching a webpage or interacting with an API both involve making a network request. Similarly, reading from a database or loading an image from disk involve reading a file.\n\n B) Main-safety allows you to ensure that any suspend function can be called from the main thread.</string>
+    <string name="clear_log">Clear Log</string>
+
+
+
+
+
+
 </resources>
